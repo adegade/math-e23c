@@ -132,7 +132,7 @@ fisher.test(East, Trumps, alternative = "g")
 rm(list = ls()) # clear console
 
 # load the input file
-setwd("/Users/adegade/OneDrive/Documents/Education/Harvard/Software Engineering/Spring-2020-MATH-E-23C/Homework")
+# setwd("/Users/adegade/OneDrive/Documents/Education/Harvard/Software Engineering/Spring-2020-MATH-E-23C/Homework")
 NC <- read.csv("NCBirths2004.csv"); head(NC) 
 
 idx <- which(NC$Gender == "Male") # create an index for extracting gender from the data set
@@ -219,7 +219,7 @@ pv2tt <- pv1tt * 2; pv2tt # 2-tailed p value is 0.00019998
 rm(list = ls()) # clear console
 
 # load the input file
-setwd("/Users/adegade/OneDrive/Documents/Education/Harvard/Software Engineering/Spring-2020-MATH-E-23C/Homework")
+# setwd("/Users/adegade/OneDrive/Documents/Education/Harvard/Software Engineering/Spring-2020-MATH-E-23C/Homework")
 Battle <- read.csv("Battle.csv"); head(Battle) 
 
 champs <- "MEZU"

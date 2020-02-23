@@ -71,7 +71,7 @@ head(WinningStreak)
 BullsLogical <- data.frame(Won, ScoreMore100, LessTurnOver, DecentGoalAttempt, 
                          G, FTP, PF, 
                          Opp, WinningStreak); head(BullsLogical)
-write.csv(BullsLogical,"BullsLogical")  # save csv file to disk
+write.csv(BullsLogical,"BullsLogical.csv")  # save csv file to disk
 
 detach(Bulls)
 

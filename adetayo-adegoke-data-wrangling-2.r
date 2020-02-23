@@ -39,7 +39,7 @@ rm(list = ls()) # clear console
 
 
 # Load the input file
-setwd("/Users/adegade/OneDrive/Documents/Education/Harvard/Software Engineering/Spring-2020-MATH-E-23C/Data Wrangling")
+# setwd("/Users/adegade/OneDrive/Documents/Education/Harvard/Software Engineering/Spring-2020-MATH-E-23C/Data Wrangling")
 Bulls <- read.csv("ChiBulls96.csv"); head(Bulls) 
 
 
